@@ -1,0 +1,56 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Lato", sans-serif;
+  background-color: #f8f7f4;
+  color: #4a4a4a;
+}
+.font-poppins {
+  font-family: "Poppins", sans-serif;
+}
+
+.bg-serene-green {
+  background-color: #b2c8ba;
+}
+.text-serene-green {
+  color: #b2c8ba;
+}
+.hover\:bg-serene-green-dark:hover {
+  background-color: #a1b9ad;
+}
+.border-serene-green {
+  border-color: #b2c8ba;
+}
+
+.bg-warm-peach {
+  background-color: #fcead4;
+}
+
+.fade-in {
+  animation: fadeInAnimation 0.7s ease-in-out forwards;
+}
+.fade-out {
+  animation: fadeOutAnimation 0.7s ease-in-out forwards;
+}
+
+@keyframes fadeInAnimation {
+  from {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes fadeOutAnimation {
+  from {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  to {
+    opacity: 0;
+    transform: translateY(-15px);
+  }
+}

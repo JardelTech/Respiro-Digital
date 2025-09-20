@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Respiro Digital: Seu Canto de Bem-Estar</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Poppins:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body
+    class="flex flex-col items-center justify-center min-h-screen p-4 md:p-8"
+  >
+    <main class="w-full max-w-2xl text-center">
+      <header class="mb-10">
+        <h1
+          class="font-poppins text-4xl md:text-5xl font-bold text-serene-green"
+        >
+          Respiro Digital
+        </h1>
+        <p class="mt-2 text-lg text-gray-500">
+          Uma pausa para inspirar seu dia.
+        </p>
+      </header>
+
+      <!--Mensagem -->
+      <div
+        id="card-mensagem"
+        class="bg-white rounded-2xl shadow-lg p-8 md:p-12 min-h-[250px] flex flex-col justify-center items-center transition-shadow duration-300 hover:shadow-xl"
+      >
+        <div id="container-frase" class="w-full">
+          <blockquote
+            class="text-2xl md:text-3xl font-poppins font-semibold leading-snug"
+          >
+            <p id="texto-mensagem">
+              "Clique no botão abaixo para receber sua primeira mensagem de
+              bem-estar."
+            </p>
+          </blockquote>
+          <cite
+            id="autor-mensagem"
+            class="block font-poppins text-gray-400 mt-6 text-md"
+            >- Seu momento de paz</cite
+          >
+        </div>
+      </div>
+
+      <button
+        id="gerar-mensagem-btn"
+        class="mt-10 font-poppins bg-serene-green text-white font-bold py-4 px-10 rounded-full text-lg shadow-md hover:bg-serene-green-dark transform hover:scale-105 transition-all duration-300 ease-in-out focus:outline-none focus:ring-4 focus:ring-green-200"
+      >
+        Me inspire
+      </button>
+    </main>
+
+    <!-- Seção de Ajuda e Recursos -->
+    <section class="w-full max-w-3xl text-center mt-20 mb-16 px-4">
+      <div class="border-t-2 border-serene-green/40 pt-10">
+        <h2 class="font-poppins text-2xl font-bold text-gray-700">
+          Precisa conversar ou busca apoio?
+        </h2>
+        <p class="mt-3 text-gray-600 max-w-2xl mx-auto">
+          Você não está só. Buscar ajuda é um ato de coragem e autocuidado. Se
+          você está passando por um momento difícil, considere estes recursos:
+        </p>
+
+        <div class="mt-8 grid grid-cols-1 md:grid-cols-2 gap-6 text-left">
+          <div
+            class="bg-white/80 backdrop-blur-sm p-6 rounded-xl shadow-md border border-gray-100 transition-transform hover:scale-105"
+          >
+            <h3 class="font-poppins font-bold text-serene-green text-lg">
+              CVV - Centro de Valorização da Vida
+            </h3>
+            <p class="mt-2 text-gray-600 text-sm">
+              Apoio emocional e prevenção do suicídio. Atendimento gratuito,
+              anônimo e sigiloso, 24 horas por dia.
+            </p>
+            <div class="mt-4 flex items-center space-x-4">
+              <a href="tel:188" class="font-bold text-blue-600 hover:underline"
+                >Ligue 188</a
+              >
+              <a
+                href="https://www.cvv.org.br"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="font-bold text-blue-600 hover:underline"
+                >Acesse o site</a
+              >
+            </div>
+          </div>
+          <!-- Card SUS/CAPS -->
+          <div
+            class="bg-white/80 backdrop-blur-sm p-6 rounded-xl shadow-md border border-gray-100 transition-transform hover:scale-105"
+          >
+            <h3 class="font-poppins font-bold text-serene-green text-lg">
+              SUS - Saúde Pública
+            </h3>
+            <p class="mt-2 text-gray-600 text-sm">
+              Procure a Unidade Básica de Saúde (UBS) mais próxima ou os Centros
+              de Atenção Psicossocial (CAPS).
+            </p>
+            <div class="mt-4">
+              <a
+                href="https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/s/saude-mental/caps"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="font-bold text-blue-600 hover:underline"
+                >Saiba mais sobre os CAPS</a
+              >
+            </div>
+          </div>
+        </div>
+        <p class="mt-8 text-sm text-gray-500">
+          Lembre-se: um profissional de saúde mental (psicólogo ou psiquiatra) é
+          a pessoa mais indicada para acompanhar sua jornada.
+        </p>
+      </div>
+    </section>
+
+    <
+    <footer class="text-center text-gray-400 text-sm mb-4">
+      <p>Um projeto de extensão com foco em saúde e bem-estar.</p>
+    </footer>
+    <script src="script.js" defer></script>
+  </body>
+</html>
